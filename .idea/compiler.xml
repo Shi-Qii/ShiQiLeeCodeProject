@@ -9,8 +9,5 @@
         <module name="leeCodeProject" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="leeCodeProject" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
