@@ -23,7 +23,7 @@ public class ShortestPathBinaryMatrix {
             int size = q.size();
             for (int i = 0; i < size; i++) {
                 int[] cur = q.poll();
-                int r = cur[0], c = cur[1];
+                int r = Objects.requireNonNull(cur)[0], c = cur[1];
                 for (int[] d : DIRS) {
                     int nr = r + d[0], nc = c + d[1];
                     if (nr < 0 || nc < 0 || nr >= n || nc >= n) continue;
